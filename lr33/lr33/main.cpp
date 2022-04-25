@@ -52,6 +52,27 @@ int main()
             cout << "\nШирина: " << B.getShowA();
             cout << "\nВысота: " << B.getShowB();
             cout << "\nГлубина: " << B.getShowC();
+            if (B.getShowA() == 0) {
+                cout << " \nОтрицательное значение ширины!";
+            }
+            if (B.getShowB() == 0) {
+                cout << " \nОтрицательное значение высоты!";
+            }
+            if (B.getShowC() == 0) {
+                cout << " \nОтрицательное значение глубины!";
+            }
+            if (B.getShowA() == 0 && B.getShowB() == 0) {
+                cout << " \nОтрицательные значения ширины и высоты!";
+            }
+            if (B.getShowA() == 0 && B.getShowC() == 0) {
+                cout << " \nОтрицательные значения ширины и глубины!";
+            }
+            if (B.getShowC() == 0 && B.getShowB() == 0) {
+                cout << " \nОтрицательные значения глубины и высоты!";
+            }
+            if (B.getShowA() == 0 && B.getShowB() == 0 && B.getShowC() == 0) {
+                cout << " \nОтрицательные значения!";
+            }
             break;
 
         case 3:
@@ -61,6 +82,9 @@ int main()
             cout << "\nШирина: " << B.getShowA();
             cout << "\nВысота: " << B.getShowB();
             cout << "\nГлубина: " << B.getShowC();
+            if (B.getShowA() == 0 && B.getShowB() == 0 && B.getShowC() == 0) {
+                cout << " \nДеление на 0 или отрицательное число!";
+            }
             break;
 
         case 4:
@@ -88,6 +112,27 @@ int main()
             cout << "\nШирина: " << B.getShowA();
             cout << "\nВысота: " << B.getShowB();
             cout << "\nГлубина: " << B.getShowC();
+            if (B.getShowA() == 0) {
+                cout << " \nОтрицательное значение ширины!";
+            }
+            if (B.getShowB() == 0) {
+                cout << " \nОтрицательное значение высоты!";
+            }
+            if (B.getShowC() == 0) {
+                cout << " \nОтрицательное значение глубины!";
+            }
+            if (B.getShowA() == 0 && B.getShowB() == 0) {
+                cout << " \nОтрицательные значения ширины и высоты!";
+            }
+            if (B.getShowA() == 0 && B.getShowC() == 0) {
+                cout << " \nОтрицательные значения ширины и глубины!";
+            }
+            if (B.getShowC() == 0 && B.getShowB() == 0) {
+                cout << " \nОтрицательные значения глубины и высоты!";
+            }
+            if (B.getShowA() == 0 && B.getShowB() == 0 && B.getShowC() == 0) {
+                cout << " \nОтрицательные значения!";
+            }
             break;
 
         case 7:
@@ -97,6 +142,9 @@ int main()
             cout << "\nШирина: " << B.getShowA();
             cout << "\nВысота: " << B.getShowB();
             cout << "\nГлубина: " << B.getShowC();
+            if (B.getShowA() == 0 && B.getShowB() == 0 && B.getShowC() == 0) {
+                cout << " \nДеление на 0 или отрицательное число!";
+            }
             break;
 
         case 8:
